@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qsdbih.rvwithmultipleviewtypes.CustomThumbSizeRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="true"
+    android:id="@+id/v_root"
+    android:scrollbarAlwaysDrawVerticalTrack="false"
+    android:scrollbarSize="4dp"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbarThumbVertical="@drawable/thumb_shape"
+    android:scrollbarTrackVertical="@drawable/scrollbar_track"
+    android:scrollbars="vertical"
+    android:scrollbarFadeDuration="800"
+    android:scrollbarDefaultDelayBeforeFade="800"
+    app:thumbLength="24dp" />
